@@ -1,0 +1,486 @@
+.main{
+    padding-top: 91px;
+    display: grid;
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    position: fixed;
+        box-shadow: 0 0 32px rgba(0, 0, 0, .15);
+    width: 100%;
+  background: white;
+        z-index: 1;
+}
+.nav__hidden{
+    visibility: hidden;
+    height: 0px;
+}
+.nav__dark{
+    display: flex;
+  
+    padding-left: 18px;
+    background: black;
+    
+}
+.nav__white{
+    display: flex;
+padding-top: 21px;
+padding-left: 10px;
+     
+}
+
+
+
+
+
+
+
+
+.nav__list{
+    padding: 5px;
+}
+.nav__link{
+    text-decoration: none;
+    color:#aaa;
+}
+.nav__sticky{
+    display: flex;
+    
+}
+.nav__logo{
+  height:0px;
+    visibility: hidden;
+    transition: all 0.5s;
+
+}
+.nav__logo--display{
+  height: 70px;
+    width: 100px;
+    box-sizing: border-box;
+    padding-top: 23px;
+    background:linear-gradient(to bottom right, #c09, #f42 85%);
+    padding-left: 13px;
+    padding-right: 13px;
+    visibility: visible;
+}
+.nav__icon {
+    margin-left: auto;
+    display: flex;
+    padding: 12px;
+}
+.nav__search{
+      height: 34px;
+}
+.nav__menu {
+/*     height: 34px;*/
+    visibility: hidden;
+    height: 0px;
+}
+
+
+.first-article{
+    display:grid;
+    grid-template-areas:
+        "hero hero vill1"
+        "hero hero vill2";
+    grid-gap:10px;
+    margin: 10px;
+    
+}
+.first-article__wrap{
+    background-image: linear-gradient(to top, rgba(195, 20, 50, 12.41), rgba(36, 11, 54, 0.41)), url(../images/building.jpg);
+    background-repeat: no-repeat;
+    height: 32rem;
+    padding: 10px;
+  
+  grid-area:hero;
+
+}
+
+.first-article__wrap-two{
+   background-image: linear-gradient(to top, rgba(195, 20, 50, 12.41), rgba(36, 11, 54, 0.41)), url(../images/building.jpg);
+    background-repeat: no-repeat;
+    height:15rem;
+      grid-area:vill1;
+     padding: 10px;
+
+}
+.first-article__wrap-three{
+   background-image: linear-gradient(to top, rgba(195, 20, 50, 12.41), rgba(36, 11, 54, 0.41)), url(../images/building.jpg);
+    background-repeat: no-repeat;
+    height: 15rem;
+       grid-area:vill2;
+     padding: 10px;
+  
+
+}
+.first-article__by{
+    display: flex;
+  
+    box-sizing: border-box;
+}
+
+.first-article__clock{
+       width: 20px;
+    height: 20px;
+}
+.first-article__share{
+       width: 20px;
+    height: 20px;
+}
+
+.first-article__logo{
+ width: 414px;
+    margin-left: 10px;
+}
+
+.first-article__article-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.first-article__para-one{
+    margin-bottom: 1rem;
+}
+.first-article--padding-right {
+	padding-right: 10px;
+}
+.first-article--lg-font{
+        font-size: 3.5rem;
+}
+.first-article--md-font{
+    font-size: 2rem;
+}
+.first-article--margin-top{
+   margin-top: 2rem;
+}
+
+
+
+
+
+
+.second-article{
+      display: grid;
+    padding: 10px;
+    border: 2px red solid;
+    grid-template-columns:repeat(4,minmax(300px,1fr));
+    grid-gap:10px;
+    box-sizing: border-box;
+}
+.second-article__news{
+        grid-column: 1/-1;
+}
+.second-article__link--orange {
+	color:orangered !important;
+}
+.second-article__link--bold {
+    font-weight: 900;
+       font-size: 17px;
+}
+
+.second-article__link {
+	color: black;
+    
+}
+ .second-article__clip {
+    height: 17.4rem;
+  
+    box-sizing: border-box;
+     
+    }
+
+.second-article__bg{
+  background-image: url(../images/building.jpg);
+    background-repeat: no-repeat;
+    height: 167px;
+    background-size: cover;
+    width: 100%;
+
+    margin-bottom: 13px;
+}
+
+
+.third-article{
+display: grid;
+    grid-template-columns:repeat(4,minmax(200px,1fr));
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px red solid;
+}
+.third-article__link {
+	color: black;
+    
+}
+.third-article__informer{
+   height: 269px;
+    margin: 10px;
+   
+}
+
+.third-article__header {
+    background: #FF4422;
+  
+    height: 39px;
+ position: relative;
+    box-sizing: border-box;
+    font-size: 20px;
+ 
+        padding: 10px;
+}
+.third-article__img {
+       height: 60px;
+    width: 60px;
+    left: 19px;
+    top: 11px;
+    position: absolute;
+   
+}
+
+
+.third-article__icon{
+    height: 16px;
+    width: 16px;
+}
+
+.third-article__h4--spacing{
+        margin-left: 90px;
+
+    color: white;
+}
+
+.third-article__content{
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #FFEBE7;
+}
+.third-article__h4--pd-left{
+    padding-left: 85px;
+}
+.third-article__icon-link{
+	margin-top: 18px;
+}
+
+.third-article__footer {
+       background: #FFFAF8;
+    height: 98px;
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+ 
+.third-article__news{
+     grid-column: 1/-1;
+}
+.third-article__link--orange{
+    	color:orangered !important;
+}
+
+.third-article__link--bold{
+        font-weight: 900;
+            font-size: 22px;
+}
+
+
+.third-article__row {
+    display: flex;
+  
+        justify-content: center;
+    
+}
+
+
+
+
+
+
+.fourth-article {
+display: grid;
+   grid-template-columns:repeat(3,minmax(300px,1fr));
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px red solid;
+}
+
+.fourth-article__content {
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 0px;
+    margin: 25px;
+}
+.fourth-article__link{
+      color: grey;
+}
+.fourth-article__link--orange{
+    	color:orangered !important;
+}
+
+.fourth-article__link--bold{
+        font-weight: 900;
+    font-size: 28px;
+     margin-bottom: 10px;
+       
+}
+
+
+.fourth-article__bg-link{
+font-size: 20px;
+    font-weight: bold;
+    height: 215px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-image: linear-gradient(to top, rgba(0, 0, 66, 12.41), rgba(255, 255, 255, 0.41)), url("../images/res/1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+.fourth-article__text{
+        margin-left: 19px;
+    color: white;
+}
+.fourth-article__p{
+       font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.fourth-article__p--font{
+      font-size: 25px;
+}
+.fourth-article__p--font{
+      font-size: 25px;
+}
+
+.fourth-article__p--color-spacing{
+font-size: 12px;
+    color: darkgrey;
+    margin-top: 20px;
+    
+}
+.fourth-article__orange-content {
+	    height: 96px;
+    width: 100%;
+    background-color: #FFF4F2;
+    margin-top: 3px;
+    display: flex;
+
+}
+.fourth-article__orange-wrap{
+        display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.fourth-article__kim{
+       background-image: url(../images/kimjong.jpg);
+    height: 96px;
+    width: 127px;
+    background-position: -48px 0px;
+    background-repeat: no-repeat;
+    background-size: 174px;
+}
+.fourth-article__link--font{
+	    margin-top: 11px;
+    font-weight: bold;
+
+}
+.fourth-article__h3{
+    color: orangered;
+}
+
+
+
+
+
+.fourth-article__bullet {
+	    color: orangered;
+    margin: 3px;
+}
+.fourth-article__list{
+     border-bottom:1px solid gainsboro;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fourth-article__row {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.fourth-article__link--size{
+   font-size: 13px;
+  
+}
+
+
+
+
+
+.footer{
+           background:#131313;
+    
+      }
+      .footer__column{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          flex-wrap: wrap;
+      }
+       .footer__row{
+          display:flex;
+           
+    padding-top: 23px;
+               padding-bottom: 20px;
+          
+         flex-wrap: wrap;
+      }
+    .footer__links {
+	padding-left: 17px;
+}
+      .footer__icons{
+          height: 50px;
+          width: 50px;
+             text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+          margin: 5px;
+          border-radius: 100px;
+          background:#333333;
+          box-sizing: border-box;
+      }
+      .footer__text{
+       display: flex;
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+      }
+      .footer__img{
+          width: 50px;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+}
+
+

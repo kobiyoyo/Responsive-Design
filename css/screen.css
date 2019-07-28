@@ -1,0 +1,163 @@
+
+
+@media all and (max-width:768px) {
+    
+    .main {
+  
+    position: unset !important;
+  
+}
+    .nav__menu {
+height: 34px;
+    margin-left: 10px;
+    visibility: visible;
+  
+}
+    .nav__logo--display-mobile{
+    height: 58px;
+    width: 80px;
+    box-sizing: border-box;
+    padding-top: 23px;
+    background: red;
+    padding-left: 13px;
+    padding-right: 13px;
+    visibility: visible;
+}
+    .nav__dark{
+    display:none;
+    
+}
+.nav__white{
+       display:none;   
+}
+
+
+
+.first-article{
+  
+    grid-template-areas:
+        "hero"
+        "vill1"
+        "vill2";
+   
+    }
+    .first-article__wrap {
+ 
+    height: 15rem;
+    }
+
+    .first-article__article-head {
+        display: none;
+    }
+    .first-article--lg-font {
+        font-size: 2rem;
+         margin-top: 0px !important;
+    }
+    .first-article__part-two {
+        margin-left: 0;
+    }
+
+.second-article{
+    
+    grid-template-columns:repeat(1,minmax(300px,1fr)) !important;
+   
+}
+.second-article__bg {
+    height: 114px;
+    
+    margin-right: 32px;
+      min-width: 20%;
+    }
+
+    .second-article__link {
+    color: black;
+    font-size: 13px;
+}
+    
+   
+ .second-article__clip {
+        height: 10.4rem;
+    display: flex;
+    box-sizing: border-box;
+    }
+    .third-article{
+
+    grid-template-columns:repeat(1,minmax(200px,1fr))!important;
+  
+}
+
+   .fourth-article {
+
+   grid-template-columns:repeat(1,minmax(300px,1fr))!important;
+    
+
+
+}
+        
+        .fourth-article__p--font {
+    font-size: 20px;
+}
+    .fourth-article__link--font {
+ 
+    font-size: 16px;
+}
+
+
+
+
+
+
+}
+@media only screen and (max-width:1024px) {
+
+    
+    .first-article--lg-font {
+    font-size: 2.5rem;
+            margin-top: 9.4rem;
+}
+    
+
+    .first-article__article-head {
+        display: none;
+    }
+.second-article{
+    
+    grid-template-columns:repeat(3,minmax(300px,1fr));
+   
+}
+
+       .second-article__link {
+    color: black;
+    font-size: 13px;
+}
+
+    .second-article__link--bold {
+    font-weight: 900;
+        font-size: 20px !important;}
+       .third-article{
+
+    grid-template-columns:repeat(3,minmax(200px,1fr));
+  
+}
+
+    .third-article__informer--hidden{
+        display: none;
+    }
+    .fourth-article {
+
+   grid-template-columns:repeat(2,minmax(300px,1fr));
+    
+
+    }
+}
+
+@media only screen and (max-width:1280px) {
+ 
+          .fourth-article__p--font {
+    font-size: 14px;
+}
+    .fourth-article__link--font {
+ 
+    font-size: 11px;
+}
+}

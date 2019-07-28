@@ -11,7 +11,7 @@ Used:
  
  
  
-## Developer
+## Author
 
  * [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
 
